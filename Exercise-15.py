@@ -14,6 +14,10 @@ def exponent(base, exp):
 base = int(input('enter a number:'))
 exp = int(input('enter a power:'))
 
+# output
+result = exponent(base, exp)
+print(base, 'raised to the power of', exp, 'is', result)
+
 
 
 
